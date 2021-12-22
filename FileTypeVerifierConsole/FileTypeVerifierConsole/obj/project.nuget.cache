@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "cqQAXqvlDC2XvHDRKZ9ByI+EaBxhab5w1rhQyVho2TwIChrG6YujvAcF9F3w6s4F/W+R/zqxmx25VNErCN5poQ==",
+  "dgSpecHash": "3cJeWUdgRqMjkOanqcaH8PKLyr27Zp6/kKUJ8po1p9egP1fVmZje0HxGLtFyxy9Eb82AL5kD/0GNGCWM2HESUQ==",
   "success": true,
-  "projectFilePath": "D:\\mywork\\FileTypeVerifierConsole\\FileTypeVerifierConsole\\FileTypeVerifierConsole.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\mygithub\\dotnet-core-file-type-signature-verifier\\FileTypeVerifierConsole\\FileTypeVerifierConsole\\FileTypeVerifierConsole.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\spottumuttu\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.13\\microsoft.aspnetcore.http.features.5.0.13.nupkg.sha512",
+    "C:\\Users\\spottumuttu\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\spottumuttu\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

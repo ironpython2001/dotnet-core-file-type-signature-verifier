@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\mywork\\FileTypeVerifierConsole\\FileTypeVerifierLib\\FileTypeVerifierLib.csproj": {}
+    "D:\\mygithub\\dotnet-core-file-type-signature-verifier\\FileTypeVerifierConsole\\FileTypeVerifierLib\\FileTypeVerifierLib.csproj": {}
   },
   "projects": {
-    "D:\\mywork\\FileTypeVerifierConsole\\FileTypeVerifierLib\\FileTypeVerifierLib.csproj": {
+    "D:\\mygithub\\dotnet-core-file-type-signature-verifier\\FileTypeVerifierConsole\\FileTypeVerifierLib\\FileTypeVerifierLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\mywork\\FileTypeVerifierConsole\\FileTypeVerifierLib\\FileTypeVerifierLib.csproj",
+        "projectUniqueName": "D:\\mygithub\\dotnet-core-file-type-signature-verifier\\FileTypeVerifierConsole\\FileTypeVerifierLib\\FileTypeVerifierLib.csproj",
         "projectName": "FileTypeVerifierLib",
-        "projectPath": "D:\\mywork\\FileTypeVerifierConsole\\FileTypeVerifierLib\\FileTypeVerifierLib.csproj",
+        "projectPath": "D:\\mygithub\\dotnet-core-file-type-signature-verifier\\FileTypeVerifierConsole\\FileTypeVerifierLib\\FileTypeVerifierLib.csproj",
         "packagesPath": "C:\\Users\\spottumuttu\\.nuget\\packages\\",
-        "outputPath": "D:\\mywork\\FileTypeVerifierConsole\\FileTypeVerifierLib\\obj\\",
+        "outputPath": "D:\\mygithub\\dotnet-core-file-type-signature-verifier\\FileTypeVerifierConsole\\FileTypeVerifierLib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,6 +43,12 @@
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

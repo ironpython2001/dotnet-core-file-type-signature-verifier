@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Http;
+using System;
 using System.IO;
 using System.Linq;
 
@@ -6,6 +7,35 @@ namespace FileTypeVerifierLib
 {
     public class FileTypeVerifier:IFileTypeVerifier
     {
+        public bool IsOfFileType(string fileType, IFormFile file)
+        {
+            var ft = new FileTypes();
+
+            var fileSign = ft.GetSignatures()
+                .Where(x => x.name.ToUpper().Equals(fileType.ToUpper()))
+                .FirstOrDefault();
+
+            var matched = false;
+
+            foreach (var sign in fileSign.Signatures)
+            {
+                using var fileStream = file.OpenReadStream();
+                fileStream.Position = 0;
+                var reader = new BinaryReader(fileStream);
+                var headerBytes = reader.ReadBytes(sign.Length);
+
+                matched = headerBytes
+                    .Take(sign.Length)
+                    .SequenceEqual<byte>(sign);
+
+                if (matched)
+                {
+                    break;
+                }
+            }
+            return matched;
+        }
+
         public bool IsOfFileType(string fileType, FileInfo fi)
         {
             var ft = new FileTypes();
