@@ -1,0 +1,10 @@
+D:\mywork\FileTypeVerifierConsole\FileTypeVerifierLib\bin\Debug\netstandard2.1\FileTypeVerifierLib.deps.json
+D:\mywork\FileTypeVerifierConsole\FileTypeVerifierLib\bin\Debug\netstandard2.1\FileTypeVerifierLib.dll
+D:\mywork\FileTypeVerifierConsole\FileTypeVerifierLib\bin\Debug\netstandard2.1\FileTypeVerifierLib.pdb
+D:\mywork\FileTypeVerifierConsole\FileTypeVerifierLib\obj\Debug\netstandard2.1\FileTypeVerifierLib.csproj.AssemblyReference.cache
+D:\mywork\FileTypeVerifierConsole\FileTypeVerifierLib\obj\Debug\netstandard2.1\FileTypeVerifierLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\mywork\FileTypeVerifierConsole\FileTypeVerifierLib\obj\Debug\netstandard2.1\FileTypeVerifierLib.AssemblyInfoInputs.cache
+D:\mywork\FileTypeVerifierConsole\FileTypeVerifierLib\obj\Debug\netstandard2.1\FileTypeVerifierLib.AssemblyInfo.cs
+D:\mywork\FileTypeVerifierConsole\FileTypeVerifierLib\obj\Debug\netstandard2.1\FileTypeVerifierLib.csproj.CoreCompileInputs.cache
+D:\mywork\FileTypeVerifierConsole\FileTypeVerifierLib\obj\Debug\netstandard2.1\FileTypeVerifierLib.dll
+D:\mywork\FileTypeVerifierConsole\FileTypeVerifierLib\obj\Debug\netstandard2.1\FileTypeVerifierLib.pdb

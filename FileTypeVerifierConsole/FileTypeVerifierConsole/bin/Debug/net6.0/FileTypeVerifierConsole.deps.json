@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "FileTypeVerifierConsole/1.0.0": {
+        "dependencies": {
+          "FileTypeVerifierLib": "1.0.0"
+        },
+        "runtime": {
+          "FileTypeVerifierConsole.dll": {}
+        }
+      },
+      "FileTypeVerifierLib/1.0.0": {
+        "runtime": {
+          "FileTypeVerifierLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FileTypeVerifierConsole/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FileTypeVerifierLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
