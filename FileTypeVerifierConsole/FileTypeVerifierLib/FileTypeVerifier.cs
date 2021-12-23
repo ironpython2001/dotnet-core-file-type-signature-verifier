@@ -5,34 +5,34 @@ using System.Linq;
 
 namespace FileTypeVerifierLib
 {
-    public class FileTypeVerifier:IFileTypeVerifier
+    public class FileTypeVerifier : IFileTypeVerifier
     {
         public bool IsOfFileType(string fileType, IFormFile file)
         {
             var ft = new FileTypes();
 
-            var fileSign = ft.GetSignatures()
-                .Where(x => x.name.ToUpper().Equals(fileType.ToUpper()))
-                .FirstOrDefault();
+            var fileSigns = ft.GetSignatures()
+                .Where(x => x.Name.ToUpper().Equals(fileType.ToUpper()))
+                .Select(x => x)
+                .ToList();
 
             var matched = false;
 
-            foreach (var sign in fileSign.Signatures)
+            foreach (var fs in fileSigns)
             {
                 using var fileStream = file.OpenReadStream();
                 fileStream.Position = 0;
                 var reader = new BinaryReader(fileStream);
-                var headerBytes = reader.ReadBytes(sign.Length);
+                var headerBytes = reader.ReadBytes(fs.Signature.Length);
 
-                matched = headerBytes
-                    .Take(sign.Length)
-                    .SequenceEqual<byte>(sign);
+                matched = headerBytes.SequenceEqual(fs.Signature);
 
                 if (matched)
                 {
                     break;
                 }
             }
+
             return matched;
         }
 
@@ -40,23 +40,22 @@ namespace FileTypeVerifierLib
         {
             var ft = new FileTypes();
 
-            var fileSign = ft.GetSignatures()
-                .Where(x => x.name.ToUpper().Equals(fileType.ToUpper()))
-                .FirstOrDefault();
+            var fileSigns = ft.GetSignatures()
+                .Where(x => x.Name.ToUpper().Equals(fileType.ToUpper()))
+                .Select(x => x)
+                .ToList();
 
             var matched = false;
 
-            foreach (var sign in fileSign.Signatures)
+            foreach (var fs in fileSigns)
             {
                 using var fileStream = File.OpenRead(fi.FullName);
 
                 fileStream.Position = 0;
                 var reader = new BinaryReader(fileStream);
-                var headerBytes = reader.ReadBytes(sign.Length);
+                var headerBytes = reader.ReadBytes(fs.Signature.Length);
 
-                matched = headerBytes
-                    .Take(sign.Length)
-                    .SequenceEqual<byte>(sign);
+                matched = headerBytes.SequenceEqual<byte>(fs.Signature);
 
                 if (matched)
                 {
@@ -76,13 +75,13 @@ namespace FileTypeVerifierLib
 
             foreach (var fileSign in fileSigns)
             {
-                if( IsOfFileType(fileSign.name,fi))
+                if (IsOfFileType(fileSign.Name, fi))
                 {
-                    result = fileSign.name;
+                    result = fileSign.Name;
                     break;
                 }
             }
-            return result ;
+            return result;
         }
     }
 }

@@ -17,7 +17,7 @@ namespace FileTypeVerifierApi.Controllers
         public ActionResult Upload(IFormFile file)
         {
             var ftv = new FileTypeVerifierLib.FileTypeVerifier();
-            if (ftv.IsOfFileType("png", file))
+            if (ftv.IsOfFileType("xlsx", file))
                 return Ok();
             else
                 return BadRequest("Invalid File");

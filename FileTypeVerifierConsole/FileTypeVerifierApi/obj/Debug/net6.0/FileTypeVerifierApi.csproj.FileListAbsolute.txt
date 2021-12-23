@@ -10,6 +10,8 @@ D:\mygithub\dotnet-core-file-type-signature-verifier\FileTypeVerifierConsole\Fil
 D:\mygithub\dotnet-core-file-type-signature-verifier\FileTypeVerifierConsole\FileTypeVerifierApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\mygithub\dotnet-core-file-type-signature-verifier\FileTypeVerifierConsole\FileTypeVerifierApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\mygithub\dotnet-core-file-type-signature-verifier\FileTypeVerifierConsole\FileTypeVerifierApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\mygithub\dotnet-core-file-type-signature-verifier\FileTypeVerifierConsole\FileTypeVerifierApi\bin\Debug\net6.0\FileTypeVerifierLib.dll
+D:\mygithub\dotnet-core-file-type-signature-verifier\FileTypeVerifierConsole\FileTypeVerifierApi\bin\Debug\net6.0\FileTypeVerifierLib.pdb
 D:\mygithub\dotnet-core-file-type-signature-verifier\FileTypeVerifierConsole\FileTypeVerifierApi\obj\Debug\net6.0\FileTypeVerifierApi.csproj.AssemblyReference.cache
 D:\mygithub\dotnet-core-file-type-signature-verifier\FileTypeVerifierConsole\FileTypeVerifierApi\obj\Debug\net6.0\FileTypeVerifierApi.GeneratedMSBuildEditorConfig.editorconfig
 D:\mygithub\dotnet-core-file-type-signature-verifier\FileTypeVerifierConsole\FileTypeVerifierApi\obj\Debug\net6.0\FileTypeVerifierApi.AssemblyInfoInputs.cache
@@ -25,5 +27,3 @@ D:\mygithub\dotnet-core-file-type-signature-verifier\FileTypeVerifierConsole\Fil
 D:\mygithub\dotnet-core-file-type-signature-verifier\FileTypeVerifierConsole\FileTypeVerifierApi\obj\Debug\net6.0\ref\FileTypeVerifierApi.dll
 D:\mygithub\dotnet-core-file-type-signature-verifier\FileTypeVerifierConsole\FileTypeVerifierApi\obj\Debug\net6.0\FileTypeVerifierApi.pdb
 D:\mygithub\dotnet-core-file-type-signature-verifier\FileTypeVerifierConsole\FileTypeVerifierApi\obj\Debug\net6.0\FileTypeVerifierApi.genruntimeconfig.cache
-D:\mygithub\dotnet-core-file-type-signature-verifier\FileTypeVerifierConsole\FileTypeVerifierApi\bin\Debug\net6.0\FileTypeVerifierLib.dll
-D:\mygithub\dotnet-core-file-type-signature-verifier\FileTypeVerifierConsole\FileTypeVerifierApi\bin\Debug\net6.0\FileTypeVerifierLib.pdb
