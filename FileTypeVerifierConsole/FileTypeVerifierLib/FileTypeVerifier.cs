@@ -7,6 +7,34 @@ namespace FileTypeVerifierLib
 {
     public class FileTypeVerifier : IFileTypeVerifier
     {
+        public bool IsOfFileType(string fileType, Stream fileStream)
+        {
+            var ft = new FileTypes();
+
+            var fileSigns = ft.GetSignatures()
+                .Where(x => x.Name.ToUpper().Equals(fileType.ToUpper()))
+                .Select(x => x)
+                .ToList();
+
+            var matched = false;
+
+            foreach (var fs in fileSigns)
+            {
+                fileStream.Position = 0;
+                var reader = new BinaryReader(fileStream);
+                var headerBytes = reader.ReadBytes(fs.Signature.Length);
+
+                matched = headerBytes.SequenceEqual(fs.Signature);
+
+                if (matched)
+                {
+                    break;
+                }
+            }
+
+            return matched;
+        }
+
         public bool IsOfFileType(string fileType, IFormFile file)
         {
             var ft = new FileTypes();

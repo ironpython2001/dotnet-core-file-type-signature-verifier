@@ -27,3 +27,4 @@ D:\mygithub\dotnet-core-file-type-signature-verifier\FileTypeVerifierConsole\Fil
 D:\mygithub\dotnet-core-file-type-signature-verifier\FileTypeVerifierConsole\FileTypeVerifierApi\obj\Debug\net6.0\ref\FileTypeVerifierApi.dll
 D:\mygithub\dotnet-core-file-type-signature-verifier\FileTypeVerifierConsole\FileTypeVerifierApi\obj\Debug\net6.0\FileTypeVerifierApi.pdb
 D:\mygithub\dotnet-core-file-type-signature-verifier\FileTypeVerifierConsole\FileTypeVerifierApi\obj\Debug\net6.0\FileTypeVerifierApi.genruntimeconfig.cache
+D:\mygithub\dotnet-core-file-type-signature-verifier\FileTypeVerifierConsole\FileTypeVerifierApi\bin\Debug\net6.0\nClam.dll

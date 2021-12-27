@@ -6,15 +6,15 @@ using System.Net;
 
 
 var builder = WebApplication.CreateBuilder(args);
-//builder.Configuration.AddConfiguration(config);
+////builder.Configuration.AddConfiguration(config);
 
-//this is for .net 6 and heroku
-////https://medium.com/null-exception/deploy-net-core-app-to-heroku-a22a04f107c9
-////https://stackoverflow.com/questions/69904260/configuring-kestrel-server-options-in-net-6-startup
-builder.WebHost.UseKestrel(serverOptions =>
-{
-    serverOptions.Listen(IPAddress.Any, Convert.ToInt32(Environment.GetEnvironmentVariable("PORT")));
-});
+////this is for .net 6 and heroku
+//////https://medium.com/null-exception/deploy-net-core-app-to-heroku-a22a04f107c9
+//////https://stackoverflow.com/questions/69904260/configuring-kestrel-server-options-in-net-6-startup
+//builder.WebHost.UseKestrel(serverOptions =>
+//{
+//    serverOptions.Listen(IPAddress.Any, Convert.ToInt32(Environment.GetEnvironmentVariable("PORT")));
+//});
 
 // Add services to the container.
 

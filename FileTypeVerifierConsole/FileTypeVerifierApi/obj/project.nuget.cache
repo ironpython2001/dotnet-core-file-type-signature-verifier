@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "kPJ4kCcL//RZ/21ZDcZ7G3K13hor3lyn+3y0Ha7Qz2UyY1FuhaiF1VTCdhTNX9ZPcA5vHJg3TcS9lystB/RM4A==",
+  "dgSpecHash": "ge7/zS4Q/sAxSFHzkqCk5DF65B2DZluzYy/aDvyOjupZRkYXqnROWAvK20/cb0rLjRbemdvRweFefP1lQdlMuA==",
   "success": true,
   "projectFilePath": "D:\\mygithub\\dotnet-core-file-type-signature-verifier\\FileTypeVerifierConsole\\FileTypeVerifierApi\\FileTypeVerifierApi.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\spottumuttu\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
     "C:\\Users\\spottumuttu\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\spottumuttu\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512",
+    "C:\\Users\\spottumuttu\\.nuget\\packages\\nclam\\6.0.1\\nclam.6.0.1.nupkg.sha512",
     "C:\\Users\\spottumuttu\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\spottumuttu\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\spottumuttu\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",

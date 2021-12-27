@@ -51,6 +51,15 @@
           "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.targets": {}
         }
       },
+      "nClam/6.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/nClam.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/nClam.dll": {}
+        }
+      },
       "Swashbuckle.AspNetCore/6.2.3": {
         "type": "package",
         "dependencies": {
@@ -291,6 +300,18 @@
         "tools/zh-Hant/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll"
       ]
     },
+    "nClam/6.0.1": {
+      "sha512": "+j7rwL1vcvChqsQ8UALZUJlNl0q4o0YO6FiR/ed4Q/WXx3KnsvCKdwH6rOyasJm58AeWiQl8DMgKpQSBRE6E6g==",
+      "type": "package",
+      "path": "nclam/6.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/nClam.dll",
+        "nclam.6.0.1.nupkg.sha512",
+        "nclam.nuspec"
+      ]
+    },
     "Swashbuckle.AspNetCore/6.2.3": {
       "sha512": "cnzQDn0Le+hInsw2SYwlOhOCPXpYi/szcvnyqZJ12v+QyrLBwAmWXBg6RIyHB18s/mLeywC+Rg2O9ndz0IUNYQ==",
       "type": "package",
@@ -408,7 +429,8 @@
     "net6.0": [
       "FileTypeVerifierLib >= 1.0.0",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.14.0",
-      "Swashbuckle.AspNetCore >= 6.2.3"
+      "Swashbuckle.AspNetCore >= 6.2.3",
+      "nClam >= 6.0.1"
     ]
   },
   "packageFolders": {
@@ -466,6 +488,10 @@
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.2.3, )"
+          },
+          "nClam": {
+            "target": "Package",
+            "version": "[6.0.1, )"
           }
         },
         "imports": [
