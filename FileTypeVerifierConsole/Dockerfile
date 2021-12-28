@@ -18,5 +18,5 @@ RUN dotnet publish "FileTypeVerifierApi.csproj" -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-#ENTRYPOINT ["dotnet", "FileTypeVerifierApi.dll"]
-CMD dotnet FileTypeVerifierApi.dll --urls "http://*:$PORT"
+ENTRYPOINT ["dotnet", "FileTypeVerifierApi.dll"]
+#CMD dotnet FileTypeVerifierApi.dll --urls "http://*:$PORT"
