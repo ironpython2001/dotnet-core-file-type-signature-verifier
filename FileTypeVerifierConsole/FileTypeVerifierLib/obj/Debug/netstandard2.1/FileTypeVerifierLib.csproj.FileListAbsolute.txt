@@ -8,3 +8,13 @@ D:\mywork\FileTypeVerifierConsole\FileTypeVerifierLib\obj\Debug\netstandard2.1\F
 D:\mywork\FileTypeVerifierConsole\FileTypeVerifierLib\obj\Debug\netstandard2.1\FileTypeVerifierLib.csproj.CoreCompileInputs.cache
 D:\mywork\FileTypeVerifierConsole\FileTypeVerifierLib\obj\Debug\netstandard2.1\FileTypeVerifierLib.dll
 D:\mywork\FileTypeVerifierConsole\FileTypeVerifierLib\obj\Debug\netstandard2.1\FileTypeVerifierLib.pdb
+D:\mygithub\dotnet-core-file-type-signature-verifier\FileTypeVerifierConsole\FileTypeVerifierLib\bin\Debug\netstandard2.1\FileTypeVerifierLib.deps.json
+D:\mygithub\dotnet-core-file-type-signature-verifier\FileTypeVerifierConsole\FileTypeVerifierLib\bin\Debug\netstandard2.1\FileTypeVerifierLib.dll
+D:\mygithub\dotnet-core-file-type-signature-verifier\FileTypeVerifierConsole\FileTypeVerifierLib\bin\Debug\netstandard2.1\FileTypeVerifierLib.pdb
+D:\mygithub\dotnet-core-file-type-signature-verifier\FileTypeVerifierConsole\FileTypeVerifierLib\obj\Debug\netstandard2.1\FileTypeVerifierLib.csproj.AssemblyReference.cache
+D:\mygithub\dotnet-core-file-type-signature-verifier\FileTypeVerifierConsole\FileTypeVerifierLib\obj\Debug\netstandard2.1\FileTypeVerifierLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\mygithub\dotnet-core-file-type-signature-verifier\FileTypeVerifierConsole\FileTypeVerifierLib\obj\Debug\netstandard2.1\FileTypeVerifierLib.AssemblyInfoInputs.cache
+D:\mygithub\dotnet-core-file-type-signature-verifier\FileTypeVerifierConsole\FileTypeVerifierLib\obj\Debug\netstandard2.1\FileTypeVerifierLib.AssemblyInfo.cs
+D:\mygithub\dotnet-core-file-type-signature-verifier\FileTypeVerifierConsole\FileTypeVerifierLib\obj\Debug\netstandard2.1\FileTypeVerifierLib.csproj.CoreCompileInputs.cache
+D:\mygithub\dotnet-core-file-type-signature-verifier\FileTypeVerifierConsole\FileTypeVerifierLib\obj\Debug\netstandard2.1\FileTypeVerifierLib.dll
+D:\mygithub\dotnet-core-file-type-signature-verifier\FileTypeVerifierConsole\FileTypeVerifierLib\obj\Debug\netstandard2.1\FileTypeVerifierLib.pdb
