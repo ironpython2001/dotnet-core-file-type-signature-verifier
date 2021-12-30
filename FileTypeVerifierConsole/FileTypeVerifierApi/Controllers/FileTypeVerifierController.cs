@@ -28,7 +28,8 @@ namespace FileTypeVerifierApi.Controllers
 
                 var ClamAVServerURL = _configuration["ClamAVServer:URL"];
                 var ClamAVServerPORT = Convert.ToInt32(_configuration["ClamAVServer:Port"]);
-                var clam = new ClamClient("http://ip172-18-0-23-c74sge7njsv000929th0-3310.direct.labs.play-with-docker.com/");
+                //var clam = new ClamClient("http://ip172-18-0-23-c74sge7njsv000929th0-3310.direct.labs.play-with-docker.com/");
+                var clam = new ClamClient(ClamAVServerURL,ClamAVServerPORT);
                 var scanResult = await clam.SendAndScanFileAsync(fileStream);
 
                 if (scanResult.Result == ClamScanResults.Clean)
